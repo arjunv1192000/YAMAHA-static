@@ -1,0 +1,353 @@
+.header{
+    width: 100%;
+    height: 100px;
+    
+    
+    
+}
+.logo{
+    width: 30px;
+    height: 10px;  
+    padding-left:5px;
+    padding-top:10px;
+
+
+
+}
+.headbut{
+    width: 150px;
+    height: 70px;
+    border: none; 
+    background-color: transparent;
+    color: gray;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -60px; 
+    
+
+
+
+}
+.headbut:hover{
+    color: #000;
+    border-bottom: 5px solid rgb(5, 5, 5);
+    cursor: pointer;
+}
+.butt{
+    width: 780px;
+    height: 40px;
+    margin-left: 400px;
+}
+.symbols{
+    width: 135px;
+    height: 40px;
+    background-color:transparent;
+    margin-left: 1350px; 
+    margin-top: -40px;
+    background-size: cover;
+    cursor: pointer;
+    
+
+    
+}
+.logoss{
+    width: 45px;
+    height: 30px; 
+    float: left;
+
+}
+.icons{
+    width: 60px;
+    height: 30px;
+    background-color:transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.firstimg{
+    width: 100%;
+    height: 850px;
+    background-image: url(./images/homepage_hero_desktop_bkg.jpg);
+    background-size: contain;
+    
+}
+.insideimg{
+    width: 100%;
+    height: 250px;
+    padding-top: 150px;
+    padding-left: 5px; 
+    
+}
+.buttons{
+    width: 700px;
+    height: 70px;
+    background-color:transparent;
+    margin-top: 68px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.button1{
+    width: 320px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    color: rgb(220, 31, 46);
+    font-size: large;
+    cursor: pointer;
+}
+.button1 :hover{
+    background-color: #222b3352;
+}
+.button2{
+    width: 320px;
+    height: 60px;
+    margin-left: 25px;
+    background-color: rgb(220, 31, 46);
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-size: large;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15,.img16,.img17,.img18{
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    
+    
+
+}
+.imgbutt{
+    position: absolute;
+    bottom: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 3px solid red;
+    margin-left: 130px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: 200;
+}
+.outer2{
+    width: 100%;
+    height: 700px;
+
+    
+}
+.button4{
+    width: 180px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: rgb(220, 31, 46);
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-size: medium;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color:transparent;
+    margin-left: 200px;
+    padding-top: 200px;
+}
+.backimg{
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/homepage_gear_desktop_bkg.png);
+    background-size: cover;
+
+}
+.backimg img{
+    margin-left: 600px;
+    margin-top: -375px;
+
+}
+.outer3{
+    width: 100%;
+    height: 700px;
+    
+    
+}
+.box2{
+    width: 70%;
+    height: 437px;
+    background-image: url("./images/homepage_accessories_desktop_bkg_C.png");
+    background-size:contain;
+    margin-top: 200px;
+    float: left;
+}
+.box3{
+    width:200px;
+    height: 437px;
+    float:left;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.outer4{
+    width: 100%;
+    height: 600px;
+    
+}
+.box4{
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin-left: 200px;
+}
+.box5{
+    width: 400px;
+    height: 600px;   
+    float: left;
+    margin-left: 200px;
+}
+.txt1{
+    font: weight 100px; 
+    text-align: center;
+    
+}
+.image{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.location{
+    width: 180px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: rgb(220, 31, 46);
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-size: medium;
+    margin-left: 100px;
+    cursor: pointer;
+
+
+}
+.outer5{
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/homepage_email_desktop_bkg.jpg");
+    background-size: contain;
+}
+.box6{
+    width: 40%;
+    height: 200px;
+    position: relative;
+    background-color:transparent;
+    margin-left: 450px;
+    padding-top: 50px;
+
+}
+.txt2{
+    text-align: center;
+    color: #ffff;
+}
+.outer6{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(236, 14, 14);
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #222b33;
+}
+.footbox{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 40px;
+    float: left;
+    
+}
+.footbut{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    color: #ffff;
+    font-size: large;
+    margin-top: 30px;
+    font-weight: 400;
+     border-bottom: 2px solid #ffff; 
+}
+.txtfoot{
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footlogo{
+    width: 100%;
+    height: 170px;
+    background-color:#222b33;
+    
+
+}
+.footllo{
+    width: 300px;
+    height: 100px;
+    background-image: url("./images/foot\ logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+
+}
+.lastfooter{
+    width: 100%;
+    height: 60px;
+    background-color: #222b33;
+    border-top: 1px solid white;
+
+}
+.txt10{
+    float: left;
+    color: aliceblue;
+}
+
+.txt15{
+    color: aliceblue;
+    font-size: small;
+    float: left;
+    margin-left:70px;
+}
+.txt16{
+    color: aliceblue;
+    font-size: small;
+    float: left;
+    margin-left: 500px;
+
+}
+#emailAddress{
+    width: 300px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+
